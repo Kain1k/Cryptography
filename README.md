@@ -4,7 +4,7 @@ Before solving this problem, there is a hint we need to note to make things easi
 
 This is because the ASCII codes for uppercase and lowercase letters differ by only 1 bit in the 6th bit from the right. Ex. a: 01100001 A: 	01000001.
 
-The space character has the ASCII code 00100000. When performing XOR, it only affects the 6th bit from left to right, the remaining bits are kept the same, so that's why it can convert uppercase to lowercase. That's all, let's get started.
+The space character has the ASCII code 00100000. When performing XOR, it only affects the 6th bit from right to left, the remaining bits are kept the same, so that's why it can convert uppercase to lowercase. That's all, let's get started.
 
 # Initial Implementation
 We can see that the length of the ciphertexts is longer than our target. We will XOR each byte of ciphertext with our target. Why, because we have the following properties:
