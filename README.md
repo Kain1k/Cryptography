@@ -1,4 +1,4 @@
-![alt text](image.png)
+<img width="1155" height="413" alt="image" src="https://github.com/user-attachments/assets/4d6013a7-8247-4821-b0c0-d4879f8f1866" />
 
 Before solving this problem, there is a hint we need to note to make things easier. The xor operation has a special property between uppercase and lowercase letters. When a lowercase letter is XOR over a space, it produces the corresponding uppercase letter and vice versa. When corresponding uppercase and lowercase letters are XOR together, it produces a space.
 
