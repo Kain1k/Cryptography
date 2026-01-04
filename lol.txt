@@ -1,0 +1,7 @@
+# Sửa lỗi update của 16.04
+sudo sed -i 's/archive.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
+sudo sed -i 's/security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
+sudo apt-get update
+
+# Cài tool tự động
+sudo apt-get install -y build-essential cmake unzip python ruby bison flex gperf libicu-dev libxslt-dev libxml2-dev libsqlite3-dev
